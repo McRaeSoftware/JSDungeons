@@ -1,0 +1,149 @@
+/*
+    Description: Custom colour scheme used for the website.
+    to be called after any bootstrap files
+    this will overite the standard bootstrap colours.
+
+    Author: David McRae
+ */
+body, .form-control, .input-group-text, .custom-select, .list-group-item
+{
+  background-color: #17181c;
+  color:#f7a416;
+}
+.bg-Custom
+{
+  background-color: #17181c;
+}
+h1, h2, text, .text
+{
+  color: #ffffff;
+  display:inline;
+}
+
+h6, h4
+{
+  display:inline;
+}
+
+hr
+{
+  background-color: #2a2c33;
+  color: #2a2c33;
+}
+
+.cave
+{
+  background-image: url('images/cave.jpg');
+}
+
+.parchment
+{
+  background-image: url('images/parchment.jpg');
+  font-family: 'Bad Script', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.parchment-header
+{
+  color: black;
+  display: block;
+  font-size: .83em;
+  font-weight: bold;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1.67em;
+}
+
+.tab-content > .active
+{
+  display: flex;
+}
+
+.btn:hover
+{
+  cursor: pointer;
+}
+
+/* Sidebar CSS */
+.sidebar
+{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 25px;
+}
+
+.sidebar a
+{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover
+{
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn
+{
+  position: absolute;
+  top: 0;
+  left: 25px;
+  font-size: 36px;
+  margin-right: 50px;
+}
+
+#sidebarMain {
+  transition: margin-right .5s;
+  padding: 16px;
+}
+
+/* custom tabs*/
+.tab--container
+{
+
+}
+
+.tab--bar
+{
+
+}
+
+.tab--button
+{
+
+}
+
+.tab--button:active
+{
+
+}
+
+.tab--button--active
+{
+    font-weight: bold;
+    background: #ffc107;
+    color:#17181C;
+}
+
+.tab--content
+{
+    display:none;
+}
+
+.tab--content--active
+{
+    display:block;
+}
