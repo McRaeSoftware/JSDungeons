@@ -1,0 +1,5 @@
+# connection file
+.connection.php
+
+# ALL SQL files
+*.sql
